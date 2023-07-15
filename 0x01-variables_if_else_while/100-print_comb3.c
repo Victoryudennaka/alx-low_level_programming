@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-char n;
-char m;
+int n;
+int m;
 
-for (n = 48; n < 58; n++)
+for (n = 0; n < 10; n++)
 {
-for (m = 49; m < 58; m++)
+for (m = 1; m < 10; m++)
 {
 if (m > n)
 {
-putchar(n);
-putchar(m);
+putchar(n + '0');
+putchar(m + '0');
 putchar(',');
 putchar(' ');
 }
