@@ -3,21 +3,21 @@
 
 /**
  * positive_or_negative - the function
- * @c: the parameter
+ * @i: the parameter
  */
-void positive_or_negative(int c)
+void positive_or_negative(int i)
 {
-	if (c > 0)
+	if (i > 0)
 	{
-		printf("%d is positive", c);
+		printf("%d is positive", i);
 	}
-	else if (c < 0)
+	else if (i < 0)
 	{
-		printf("%d is negative", c);
+		printf("%d is negative", i);
 	}
 	else
 	{
-		printf("%d is zero", c);
+		printf("%d is zero", i);
 	}
 	printf("\n");
 }
