@@ -27,12 +27,12 @@ j++;
 ptr = malloc(sizeof(char) * (i + j + 1));
 if (ptr == NULL)
 return (NULL);
-while (k <= i)
+while (s1[k] != '\0')
 {
 ptr[k] = s1[k];
 k++;
 }
-while (l <= j)
+while (s2[l] != '\0')
 {
 ptr[k] = s2[l];
 k++;
