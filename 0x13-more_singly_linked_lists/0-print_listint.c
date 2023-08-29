@@ -12,7 +12,7 @@ size_t size = 0;
 
 while (h != NULL)
 {
-printf("%d\n", h->n);
+printf("%u\n", h->n);
 h = h->next;
 size++;
 }
